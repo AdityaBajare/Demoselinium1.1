@@ -1,0 +1,31 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Listner Suite">
+
+<listeners>
+
+<listener class-name="Listner.Listener" />
+
+</listeners>
+<test name="login test">
+
+<classes>
+
+<class name="Listner.Logintest">
+
+<methods>
+
+<include name="loginbyemail" />
+<include name="loginbyfacebook" />
+
+</methods>
+
+</class>
+
+
+
+
+</classes>
+</test>
+
+</suite>

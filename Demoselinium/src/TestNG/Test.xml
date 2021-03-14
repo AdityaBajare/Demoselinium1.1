@@ -1,0 +1,10 @@
+<suite name="Default suite">
+<test name="Sanity test" verbose="2">
+<classes>
+<class name="TestNG.LoginTest"/>
+<class name="TestNG.SignupTest"/>
+</classes>
+</test>
+<!--  Default test  -->
+</suite>
+<!--  Default suite  -->

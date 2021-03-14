@@ -1,0 +1,10 @@
+<suite name="Default suite">
+<test name="Functional test" verbose="2">
+<classes>
+<class name="TestNG.PaymentTest"/>
+
+</classes>
+</test>
+<!--  Default test  -->
+</suite>
+<!--  Default suite  -->

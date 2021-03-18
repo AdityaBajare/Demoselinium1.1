@@ -34,7 +34,7 @@ public class Allops {
 	
 	Select selectd=new Select(driver.findElement(By.xpath("//*[@id=\"input_4_day\"]")));
 	
-	List<WebElement> l=selectd.getOptions();
+	List<WebElement> l=selectd.getOptions(); //extract the values from dropdow list
 	for(WebElement e1:l) {
 		System.out.println(e1.getText());
 	}
